@@ -1,8 +1,8 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa"; // 🔸 Instagram icon import
+import { FaInstagram } from "react-icons/fa";
 
 const Work = () => {
-  // 🌆 Instagram / City / Personal videos
+  // Instagram / City / Personal videos
   const instagramVideos = [
     {
       src: "/videos/reel1.mp4",
@@ -21,7 +21,7 @@ const Work = () => {
     },
   ];
 
-  // 💍 Wedding / Client / Promotion videos
+  // Wedding / Client / Promotion videos
   const clientsVideos = [
     {
       src: "/videos/reel4.mp4",
@@ -40,7 +40,7 @@ const Work = () => {
     },
   ];
 
-  // 🧱 Reusable Video Card
+  // Reusable Video Card
   const VideoCard = ({ video }) => (
     <div className="flex flex-col items-center bg-white rounded-2xl shadow-lg p-4 w-[300px] hover:scale-105 transition-transform duration-300 relative">
       <video
@@ -49,11 +49,10 @@ const Work = () => {
         className="rounded-lg w-full h-[400px] object-cover"
       ></video>
 
-      {/* 💜 Text and Icon */}
+      {/* Text and Icon */}
       <div className="flex items-center justify-center gap-2 mt-2">
         <p className="text-gray-700 font-serif text-center">{video.text}</p>
 
-        {/* 🔗 Instagram icon (opens that specific reel) */}
         {video.link && (
           <a
             href={video.link}
@@ -75,8 +74,6 @@ const Work = () => {
       <h2 className="text-center text-5xl font-serif text-[purple] mb-6">
         My Latest Work
       </h2>
-
-      {/* 🌆 Instagram / City / Personal Section */}
       <div className="mb-12">
         <h3 className="text-3xl font-serif text-center mb-6 text-pink-600">
           Instagram & City Highlights
@@ -88,7 +85,6 @@ const Work = () => {
         </div>
       </div>
 
-      {/* 💒 Wedding / Client / Promotion Section */}
       <div>
         <h3 className="text-3xl font-serif text-center mb-6 text-pink-600">
           Wedding & Client Promotions
