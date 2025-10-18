@@ -1,6 +1,6 @@
 import Image from "next/image";
-import headerBg from "@/public/header_bg.avif";
-import { assets } from "@/assets/assets";
+import headerBg from "../../public/header_bg.avif"
+import { assets } from "../../assets/assets";
 
 const Header = () => {
   return (

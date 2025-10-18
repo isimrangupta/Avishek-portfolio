@@ -1,4 +1,4 @@
-import { serviceData } from "@/assets/assets";
+import { serviceData } from "../../assets/assets";
 import React from "react";
 
 const Services = () => {

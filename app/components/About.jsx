@@ -1,4 +1,4 @@
-import { assets, infoList } from "@/assets/assets";
+import { assets, infoList } from "../../assets/assets";
 import Image from "next/image";
 import React from "react";
 
@@ -17,7 +17,7 @@ const About = () => {
         <div className="flex-1">
           <p
           className="mb-10 max-w-2xl font-Ovo"
-          >Hi, I'm Aviahek Gupta, a passionate videographer and video editor based in Siliguri. I love creating visually appealing content with smooth transitions, perfect color grading, and rhythmic edits that bring stories to life. Over time, I have worked on personal projects and collaborations that focus on capturing real moments and turning them into engaging videos. I enjoy experimenting with new techniques and always strive to make every video unique and impactful.</p>
+          >Hi, I'm Avishek Gupta, a passionate videographer and video editor based in Siliguri. I love creating visually appealing content with smooth transitions, perfect color grading, and rhythmic edits that bring stories to life. Over time, I have worked on personal projects and collaborations that focus on capturing real moments and turning them into engaging videos. I enjoy experimenting with new techniques and always strive to make every video unique and impactful.</p>
 
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
             {infoList.map(({icon, iconDark, title, description, index}) => (
